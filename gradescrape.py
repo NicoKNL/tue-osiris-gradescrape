@@ -88,8 +88,8 @@ if True:
     from PyQt5.uic import loadUi
     from grades_model import GradesModel
 
-    ui_file = r"C:\Users\klaas\PycharmProjects\gradescrape\gradescrape.ui"
-    css_file = r"C:\Users\klaas\PycharmProjects\gradescrape\gradescrape.css"
+    ui_file = f"{this_folder}/gradescrape.ui"
+    css_file = f"{this_folder}/gradescrape.css"
     # ui = compileUi(ui_file)
 
     class MainWindow(QMainWindow):
