@@ -1,3 +1,10 @@
+# test configuration data
+config.json
+
+# PyCharm config
+.idea/
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
