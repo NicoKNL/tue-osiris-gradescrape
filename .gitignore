@@ -1,5 +1,6 @@
 # test configuration data
 config.json
+gradescrape.json
 
 # PyCharm config
 .idea/

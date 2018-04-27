@@ -1,0 +1,12 @@
+QMainWindow {
+    background-color: #202225;
+}
+
+QTableView {
+    background-color: #282B30;
+    color: #00FF00;
+    font: "Courier New";
+    font-weight: bold;
+    font-size: 20px;
+
+}

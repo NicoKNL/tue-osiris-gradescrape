@@ -1,3 +1,4 @@
+# Currently this is very much a WORK IN PROGRESS and does not yet fully work as intended.
 # TUe Osiris Gradescrape
 Who wants to log in to Osiris and click multiple links to get an overview of your grades? Who wants to constantly check Osiris to see if there are new grades posted online?
 
@@ -17,7 +18,7 @@ The following list is not complete, and will be updated in the future.
 |library|Version|Description|
 |-------|-------|-----------|
 |PyQt5|5.x|QtWebkit is used as a headless browser to bypass the JavaScript login page|
-|BeautifulSoup4 | 4.x | Used to scrape the pages and extract the data
+|BeautifulSoup4 | 4.x | Used to scrape the pages and extract the data |
 
 ## Configuration
 In order to use this tool, it of course needs access to your Osiris page. For this you need to do the follwing:
