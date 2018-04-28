@@ -2,11 +2,57 @@ QMainWindow {
     background-color: #202225;
 }
 
-QTableView {
+.QHeaderView::section {
     background-color: #282B30;
-    color: #00FF00;
-    font: "Courier New";
+    font-family: Arial;
     font-weight: bold;
-    font-size: 20px;
+    color: #CCCCCC;
+    height: 35px;
+    border-left: 5px solid red;
+}
 
+.QTableView {
+    border: 0px;
+    background-color: #2F3136;
+    color: #C0C0C0;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.QPushButton {
+    background-color: #282B30;
+    color: #CCCCCC;
+    height: 50px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.QPushButton::hover {
+    color: #FF0000;
+}
+
+.QScrollBar:vertical {
+        border: 0px;
+        background-color: #202225;
+        width: 15px;
+}
+
+.QScrollBar::handle:vertical {
+        background: #282B30;
+        min-height: 0px;
+}
+
+.QScrollBar:horizontal {
+        border: 0px;
+        background-color: #202225;
+        height: 15px;
+}
+
+.QScrollBar::handle:horizontal {
+        background: #282B30;
+        min-width: 0px;
 }
